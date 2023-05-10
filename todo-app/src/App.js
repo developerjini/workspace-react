@@ -1,8 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import TodoTemplate from './components/TodoTemplate.js';
 
 function App() {
-  return <div>Todo App을 만들자!</div>;
+  return <TodoTemplate>Todo App을 만들자!</TodoTemplate>;
 }
 
 export default App;
