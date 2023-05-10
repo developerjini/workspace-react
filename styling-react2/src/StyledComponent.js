@@ -5,6 +5,14 @@ const Box = styled.div`
   background: ${(props) => props.color || "blue"};
   padding: 1rem;
   display: flex;
+
+  margin: 0 auto;
+  @media (min-width: 768px) {
+    width: 768px;
+  }
+  @media (min-width: 1024px) {
+    width: 1024px;
+  }
 `;
 
 const Button = styled.button`
