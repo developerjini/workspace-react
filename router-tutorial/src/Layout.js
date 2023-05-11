@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 
-const Latout = () => {
+const Layout = () => {
   return (
     <div>
       <header style={{ background: "lightgray", padding: 16, fontSize: 24 }}>
@@ -14,4 +14,4 @@ const Latout = () => {
   );
 };
 
-export default Latout;
+export default Layout;
