@@ -10,7 +10,7 @@
 // };
 
 // // const default connect(
-// //   state => ({
+// //   state => ({ 
 // //     number: state.counter.number
 // //   }),
 // //   dispatch => ({
